@@ -94,10 +94,7 @@ a {
     border: 1px solid #D7D8D9;
     border-radius: 6px;
     margin: 0 auto;
-}
-
-.info__text {
-    padding: 59px 60px 40px 60px;
+    margin-bottom: 30px;
 }
 
 .info__wrapper {
@@ -105,6 +102,10 @@ a {
     height: 400px;
     background-color: #FFFFFF;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.101961);
+}
+
+.info__text {
+    padding: 59px 60px 40px 60px;
 }
 
 .info__text-title h1 {
@@ -155,6 +156,57 @@ a {
     color: #889099;
     background: url(./image/svg/comment.svg) no-repeat left;
     padding-left: 19px;
+}
+
+/* Tags styles */
+
+.tags {
+    margin-bottom: 40px;
+}
+
+.tags__nav {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 21px 33px;
+    background: #F7F7F7;
+    border-radius: 4px;
+}
+
+.tags__nav-tag {
+    margin-right: 43px;
+    letter-spacing: 1px;
+    color: #323642;
+}
+
+.tags__nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.tags__nav-name {
+    margin-right: 30px;
+}
+
+.tags__nav-link {
+    letter-spacing: 0.8px;
+    color: #4CB649;
+}
+
+.tags__nav-name:last-child {
+    margin-right: 0;
+}
+
+.tags__nav-about-team {
+    margin-right: 30px;
+    letter-spacing: 1px;
+}
+
+.tags__nav-about-link {
+    color: #323642;
 }
 
 
