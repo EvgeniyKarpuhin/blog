@@ -215,6 +215,10 @@ a {
     margin-bottom: 73px;
 }
 
+.posts__sections {
+    display: flex;
+}
+
 .posts__tag {
     margin-bottom: 40px;
     font-weight: 300;
@@ -225,17 +229,9 @@ a {
 
 .posts__block {
     display: flex;
+    border-bottom: 1px solid #EBECED;
+    padding-bottom: 30px;
     margin-bottom: 30px;
-}
-
-.posts__block::after {
-    content: '';
-    border-bottom: 1px solid red;
-    margin-bottom: 30px;
-}
-
-.posts__block:last-child {
-    margin-bottom: 40px;
 }
 
 .posts__block-pic {
@@ -282,4 +278,22 @@ a {
     font-size: 14px;
     line-height: 22px;
     color: #889099;
+}
+
+.posts__button {
+    display: flex;
+    justify-content: center;
+}
+
+.posts__btn-link {
+    padding: 11px 40px;
+    border: 1px solid #4CB649;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: #4CB649;
+}
+
+.posts__right-section {
+    display: flex;
+    min-width: 400px;
 }
