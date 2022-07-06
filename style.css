@@ -296,4 +296,34 @@ a {
 .posts__right-section {
     display: flex;
     min-width: 400px;
+    margin-left: 20px;
+}
+
+.posts__right-block {
+    width: 100%;
+    padding-left: 60px;
+    border-left: 1px solid #EBECED;
+}
+
+.posts__right-search {
+    position: relative;
+}
+
+.posts__right-pic {
+    position: absolute;
+    top: 22px;
+    left: 20px;
+    width: 18px;
+}
+
+.posts__right-input {
+    width: -webkit-fill-available;
+    background-color: #FFFFFF;
+    border: 1px solid #D7D8D9;
+    border-radius: 4px;
+    padding: 16px 0 16px 58px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #22252E;
 }
