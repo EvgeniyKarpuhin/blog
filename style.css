@@ -405,12 +405,14 @@ a {
 
 .subscriptions__blocks {
     display: flex;
+    justify-content: space-between;
 }
 
 .subscriptions__block {
     background: #FFFFFF;
     border: 1px solid #EBECED;
     border-radius: 6px;
+    margin-bottom: 51px;
 }
 
 .subscriptions__block {
@@ -441,9 +443,13 @@ a {
     font-size: 24px;
     line-height: 32px;
     color: #22252E;
-    margin-bottom:27px;
+    margin-bottom: 16px;
     padding-bottom: 18px;
     border-bottom: 1px solid #EBECED;
+}
+
+.first-child-month {
+    margin-bottom: 27px;
 }
 
 .subscriptions__pay {
@@ -457,15 +463,38 @@ a {
     font-size: 14px;
     line-height: 22px;
     color: #323642;
+    margin-bottom: 19px;
+}
+
+.first-child-info {
     margin-bottom: 30px;
+}
+
+.subscriptions__red {
+    text-decoration: line-through;
+    color: #F24458;
+    margin-bottom: 4px;
+}
+
+.subscriptions__discount {
+    font-weight: 700;
 }
 
 .subscriptions__btn {
     width: 100%;
     padding: 11px 0;
+    background-color: #FFFFFF;
     text-transform: uppercase;
     border: 1px solid #4CB649;
     border-radius: 30px;
+    cursor: pointer;
+}
+
+.subscriptions__btn:hover,
+.subscriptions__btn:active,
+.subscriptions__btn:focus {
+    background: linear-gradient(0deg, #4CB649 0%, #5DDF5A 100%);
+    color: #FFFFFF;
 }
 
 
