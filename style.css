@@ -418,6 +418,15 @@ a {
 .subscriptions__block {
     text-align: center;
     padding: 48px 102px 40px 102px;
+    transition: .2s all;
+}
+
+.subscriptions__block:hover,
+.subscriptions__block:active,
+.subscriptions__block:focus {
+    transform: scale(1.1);
+    border: 4px solid #4CB649;
+    transition: .2s all;
 }
 
 .subscriptions__months {
@@ -542,7 +551,9 @@ a {
 
 .subscriptions__payment-link {
     margin-right: 40px;
+    padding-right: 30px;
     color: #4CB649;
+    background: url(./image/svg/Shape.svg) no-repeat right;
 }
 
 .subscriptions__payment-link:last-child {
