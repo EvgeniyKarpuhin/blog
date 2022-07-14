@@ -390,6 +390,7 @@ a {
 
 .subscriptions {
     background: linear-gradient(135deg, #3D4251 0%, #272B35 100%);
+    margin-bottom: 84px;
 }
 
 .subscriptions__title {
@@ -558,4 +559,43 @@ a {
 
 .subscriptions__payment-link:last-child {
     margin-right: 0;
+}
+
+/* Footer styles */
+
+.footer__company-name {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 58px;
+}
+
+.footer__info {
+    display: flex;
+}
+
+.footer__info-names {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #323642;
+    margin-bottom: 20px;
+}
+
+.footer__info-list {
+    list-style: none;
+}
+
+.footer__info-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #889099;
+}
+
+.footer__info-programs {
+    margin-bottom: 58px;
 }
