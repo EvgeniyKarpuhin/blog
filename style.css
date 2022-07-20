@@ -573,6 +573,7 @@ a {
 
 .footer__info {
     display: flex;
+    justify-content: space-between;
 }
 
 .footer__info-names {
@@ -589,7 +590,8 @@ a {
     list-style: none;
 }
 
-.footer__info-link {
+.footer__info-link,
+.footer__info-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
@@ -598,4 +600,8 @@ a {
 
 .footer__info-programs {
     margin-bottom: 58px;
+}
+
+.footer__info-aboutSocial {
+    max-width: 600px;
 }
