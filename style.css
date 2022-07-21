@@ -598,10 +598,33 @@ a {
     color: #889099;
 }
 
+.footer__info-reserved {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #889099;
+}
+
 .footer__info-programs {
     margin-bottom: 58px;
 }
 
 .footer__info-aboutSocial {
     max-width: 600px;
+}
+
+.footer__info-about {
+    margin-bottom: 40px;
+}
+
+.footer__info-social {
+    padding-bottom: 90px;
+}
+
+.footer__info-socialIcon {
+    margin-right: 31px;
+}
+
+.footer__info-socialIcon:last-child {
+    margin-right: 0;
 }
