@@ -153,7 +153,8 @@ a {
     color: #4CB649;
 }
 
-.info__text-comments {
+.info__text-comments,
+.posts__text-comments {
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
@@ -578,6 +579,7 @@ a {
 .footer__info {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 90px;
 }
 
 .footer__info-names {
@@ -611,7 +613,7 @@ a {
 }
 
 .footer__info-programs {
-    margin-bottom: 58px;
+    margin-bottom: 63px;
 }
 
 .footer__info-aboutSocial {
@@ -620,10 +622,6 @@ a {
 
 .footer__info-about {
     margin-bottom: 40px;
-}
-
-.footer__info-social {
-    padding-bottom: 90px;
 }
 
 .footer__info-socialIcon {
